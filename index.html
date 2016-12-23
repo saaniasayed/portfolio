@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'>
+    <link rel="icon" href="images/me.png" type="image/x-png">
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Saania Sayed - Portfolio</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row text-uppercase">
+        <div class="col-md-2">
+          <img class="header-image" src="images/me.png" width="101" height="100" alt="Saania Sayed" data-toggle="modal" data-target="#aboutMe">
+        </div>
+        <div class="col-md-10 text-right">
+          <h1>Saania Sayed</h1>
+          <h4>Software Developer</h4>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/mainimage.jpg" width="1140" height="310" alt="Technology">
+        </div>
+      </div>
+
+      <h2>Featured Work</h2>
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="images/recipes.png" height="150px" width="250px" data-toggle="modal" data-target="#recipes">
+          <h3>Recipes</h3>
+          <p><a href="https://github.com/saaniasayed/recipes" target="_blank">https://github.com/saaniasayed/recipes</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/resume.png" height="150px" width="250px" alt="Resume" data-toggle="modal" data-target="#resume">
+          <h3>Interactive Resume</h3>
+          <p><a href="https://github.com/saaniasayed/resume" target="_blank">https://github.com/saaniasayed/resume</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/portfolio.png" height="150px" width="250px" alt="Portfolio" data-toggle="modal" data-target="#portfolio">
+          <h3>Online Portfolio</h3>
+          <p><a href="https://github.com/saaniasayed/portfolio" target="_blank">https://github.com/saaniasayed/portfolio</a></p>
+        </div>
+      </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="recipes" tabindex="-1" role="dialog" aria-labelledby="recipesModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="recipesModalLabel">Recipes</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/recipes.png" width="150" height="384" alt="Recipes">
+            This was the assignment done as part of Udacity's How To Use Git and Git Hub.  The assignment is upladed <a href="https://github.com/saaniasayed/recipes" target="_blank">here</a>.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="resumeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="resumeModalLabel">Interactive Resume</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/resume.png" width="568" height="390" alt="A screenshot of my online resume">
+            This online interactive resume was developed as part of project 2 of Udacity's Front End Web Developer Nanodegree.  We were
+            given some existing javascript to modify and add content to.  The resume can be found online
+            <a href="https://github.com/saaniasayed/resume" target="_blank">here</a>.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="portfolioModalLabel">Online Portfolio</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/portfolio.png" width="568" height="390" alt="A screenshot of my online portfolio">
+            This online portfolio was developed as project 1 of Udacity's Front End Web Developer Nanodegree.  We were
+            given a static layout design mockup for how the portfolio should look and used the concepts learned in
+            Udacity's Intro to HTML and CSS course to build the page.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="aboutMeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="aboutMeModalLabel">About Me</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/me.png" width="150" height="379" alt="Saania Sayed">
+            <p>
+              Myself Saania Sayed, born in Goa and brought up in Dubai. I have completed my education uptil 12th at The Indian High School Dubai with a specialization in Informatics Practices. 
+            </p>
+            <p>
+              I have done my graduation in Computer Applications from M.E.S. College of Arts and Commerce, Goa and completed my Post Graduation in Computer Application from Assam Don Bosco University. 
+            </p>
+            <p>
+              Thank You for having a look at my work.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
